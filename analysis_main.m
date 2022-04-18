@@ -7,7 +7,6 @@
 % AND+denoising are tested.
 
 clear variables; close all; clc
-addpath(genpath('functions'))
 
 %% PARAMETERS CHOICE
 % NEURON MODEL
