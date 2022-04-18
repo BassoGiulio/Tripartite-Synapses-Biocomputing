@@ -5,7 +5,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 clear variables; close all; clc
-addpath(genpath('functions'))
 % rng(1,'twister'); rng(1); % generate always the same random noise
 
 %--------------------------------------------------------------------------
