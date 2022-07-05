@@ -3,7 +3,6 @@
 % Logic gate model made by two input neurons, connected to the same output
 % neuron through two tripartite synapses. Neurons are stimulated by a
 % step of current and they can fire with tonic or phasic firing pattern.
-% Optionally with synaptic gaussian noise.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 clear variables; close all; clc
