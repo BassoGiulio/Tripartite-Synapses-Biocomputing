@@ -55,7 +55,7 @@ end
 end
 
 % FLAG INPUTS ON/OFF (I of presynaptic neurons)
-flag1=1; % CHOOSE HERE 1=ON, 0=OFF
+flag1=1; % <-- CHOOSE HERE 1=ON, 0=OFF
 flag2=1;
 
 % DURATION STEP OF CURRENT (ms)
