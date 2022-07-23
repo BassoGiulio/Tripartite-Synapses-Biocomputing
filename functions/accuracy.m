@@ -1,4 +1,9 @@
 function [TP,TN,FP,FN,accu] = accuracy(logic_type,flags,v3,bin1,bin2)
+% Author: Giulio Basso, 2022
+% Function used to calculate the accuracy in the paper by G. Basso, 
+% M. T. Barros, 'Biocomputing Model Using Tripartite Synapses Provides 
+% Reliable Neuronal Logic Gating with Spike Pattern Diversity'
+
 % spike=positive, resting state=negative
 bin=[bin1; bin2];
 
