@@ -1,5 +1,9 @@
 function [] = figure_neuron(logic_type,v1,v2,v3,T,dt)
-%figure_neuron1: figure of only neurons without noise
+% Author: Giulio Basso, 2022
+% Function used for the ghraps of logic gates' membrane potentials 
+% without noise, Fig. 3-8 in the paper by G. Basso, M. T. Barros,
+% 'Biocomputing Model Using Tripartite Synapses Provides% Reliable Neuronal 
+% Logic Gating with Spike Pattern Diversity'
 
 % Font size
 size_title=40;
