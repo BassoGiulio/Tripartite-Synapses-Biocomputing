@@ -1,5 +1,10 @@
 function [] = figure_calcium(C_1,C_2,T,dt)
-%figure_calcium: figure of calcium signals
+% Author: Giulio Basso, 2022
+% Function used for generating the calcium signals (as included in Fig. 8)
+% in the paper by G. Basso, M. T. Barros,
+% 'Biocomputing Model Using Tripartite Synapses Provides% Reliable Neuronal 
+% Logic Gating with Spike Pattern Diversity'
+
 % Font size
 size_subtitle=40;
 size_ticks=30;
