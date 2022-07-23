@@ -1,8 +1,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                              more_steps                                 %
+%                              denoising_main                             %
 %      Same code as network_main but with synaptic Gaussian noise  
 %                        (only for tonic spike)                           %          
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Giulio Basso, 2022
+% This file generates Fig. 9-12 in the paper by G. Basso, M. T. Barros,
+% 'Biocomputing Model Using Tripartite Synapses Provides Reliable Neuronal
+% Logic Gating with Spike Pattern Diversity'
 
 clear variables; close all; clc
 % rng(1,'twister'); rng(1); % generate always the same random noise
