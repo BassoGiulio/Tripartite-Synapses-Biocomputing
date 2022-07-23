@@ -1,5 +1,10 @@
 function [isi,f_inter] = firing_freq(v,dt)
-% firing_freq
+% Author: Giulio Basso, 2022
+% Function used for calculating the neurons' firing frequency
+% in the paper by G. Basso, M. T. Barros,
+% 'Biocomputing Model Using Tripartite Synapses Provides% Reliable Neuronal 
+% Logic Gating with Spike Pattern Diversity'
+
 % INPUT: v membrane potential (of a tonic spiking neuron)
 %        dt time step
 % OUPTUT: isi interspike interval (ms)
