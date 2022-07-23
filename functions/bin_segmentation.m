@@ -1,4 +1,9 @@
 function [bin,bin1,bin2] = bin_segmentation(v1,v2,Tfin1,dt)
+% Author: Giulio Basso, 2022
+% Function used for generating the grid of the signals belonging Fig. 9-13
+% in the paper by G. Basso, M. T. Barros,
+% 'Biocomputing Model Using Tripartite Synapses Provides% Reliable Neuronal 
+% Logic Gating with Spike Pattern Diversity'
 
 % FIRST STEP SIGNAL
 [pks1,locs1] = findpeaks(v1,'MinPeakHeight',25);
