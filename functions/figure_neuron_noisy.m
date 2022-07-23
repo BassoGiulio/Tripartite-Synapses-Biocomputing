@@ -1,5 +1,9 @@
 function [] = figure_neuron_noisy(logic_type,v1,v2,v3,bin,T,dt)
-%figure_neuron_noisy2: figure for noisy and denoised simulations
+% Author: Giulio Basso, 2022
+% Function used for the ghraps of logic gates' membrane potentials 
+% with noise, Fig. 9-12 in the paper by G. Basso, M. T. Barros,
+% 'Biocomputing Model Using Tripartite Synapses Provides% Reliable Neuronal 
+% Logic Gating with Spike Pattern Diversity'
 
 size_title=40;
 size_subtitle=35;
