@@ -1,5 +1,10 @@
 function [I_syn,I_glion,C,Ce,Sm,Gm,g_syn] = astro(gate_type,astro_type,v,u2,C,Ce,Sm,Gm,dt,p,g_syn)
-%astro: astrocyte model for tripartite synapse using conductance based model
+% Author: Giulio Basso, 2022
+% Function used for the tripartite synapse model with synaptic conductance
+% in the paper by G. Basso, M. T. Barros,
+% 'Biocomputing Model Using Tripartite Synapses Provides% Reliable Neuronal 
+% Logic Gating with Spike Pattern Diversity'
+
 
 %INPUT:
 %  gate_type: choose gate type for setting w_in
