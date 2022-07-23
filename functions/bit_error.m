@@ -1,5 +1,5 @@
 function [hamming_dist,BER] = bit_error(logic_type,flags,v1,v2,v3,bin)
-%bit_error: Hamming Distance and BIT ERROR RATIO
+
 %INPUT:
 %   logic_type: string with 'AND' or 'OR'
 %   flags: [flag1 flag2] ON/OFF flag of the inputs
