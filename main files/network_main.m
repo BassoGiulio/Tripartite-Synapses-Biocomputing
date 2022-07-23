@@ -1,9 +1,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                           Network_complete:
-% Logic gate model made by two input neurons, connected to the same output
-% neuron through two tripartite synapses. Neurons are stimulated by a
-% step of current and they can fire with tonic or phasic firing pattern.
+%                           network_main                                  %
+% Logic gate model made by two input neurons, connected to the same output%
+% neuron through two tripartite synapses. Neurons are stimulated by a     %
+% step of current and they can fire with tonic or phasic firing pattern.  %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Giulio Basso, 2022
+% This file generates Fig. 3-8 in the paper by G. Basso, M. T. Barros,
+% 'Biocomputing Model Using Tripartite Synapses Provides Reliable Neuronal
+% Logic Gating with Spike Pattern Diversity'
 
 clear variables; close all; clc
 
