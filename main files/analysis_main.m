@@ -2,9 +2,14 @@
 %                    TRIALS with different noise std dev                  %
 %                       (same as denoising_main)                          %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Calculate BER and accuracy for different noise levels. 10 observations 
-% for each noise std dev. For each observation OR, AND, OR+denoising,
-% AND+denoising are tested.
+% Author: Giulio Basso, 2022
+% This file generates Fig. 13 in the paper by G. Basso, M. T. Barros,
+% 'Biocomputing Model Using Tripartite Synapses Provides Reliable Neuronal
+% Logic Gating with Spike Pattern Diversity'
+
+% It calculates BER and accuracy for different noise levels. 
+% 10 observations for each noise std dev. For each observation OR, AND, 
+% OR+denoising, AND+denoising are tested.
 
 clear variables; close all; clc
 
