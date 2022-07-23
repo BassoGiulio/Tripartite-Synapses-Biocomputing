@@ -1,6 +1,10 @@
 function [v0,v,u] = postsyn_neuron(neuron_type,v0,u0,I_syn,I_glion,dt)
-%postsyn_neuron: update of Izhikevich model of postsynaptic neuron for 
-%               tripartite synapse
+% Author: Giulio Basso, 2022
+% Function used for the update of the Izhikevich model of postsynaptic neuron 
+% within a tripartite synapse, in the paper by G. Basso, M. T. Barros,
+% 'Biocomputing Model Using Tripartite Synapses Provides% Reliable Neuronal 
+% Logic Gating with Spike Pattern Diversity'
+
 %INPUT:
 %  neuron_type: number indicating the spiking pattern, selected between [1 6]
 %  v0: actual value of postsynaptic v2(t) (or initial value)
