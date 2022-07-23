@@ -1,8 +1,10 @@
 function [v0,v,u,p] = presyn_neuron(neuron_type,v0,u0,I_flag,dt)
+% Author: Giulio Basso, 2022
+% Function used for the update of the Izhikevich model of presynaptic neuron 
+% within a tripartite synapse, in the paper by G. Basso, M. T. Barros,
+% 'Biocomputing Model Using Tripartite Synapses Provides% Reliable Neuronal 
+% Logic Gating with Spike Pattern Diversity'
 
-%presyn_neuron: update of Izhikevich model of presynaptic neuron for 
-%               tripartite synapse using conductance model with g_in as in 
-%               code with only neuron (the one in LAB1 neuroengineering)
 %INPUT:
 %  neuron_type: number indicating the spiking pattern, selected between [1 6]
 %  v0: actual value of presynaptic v1(t) (or initial value)
