@@ -1,4 +1,9 @@
 function [hamming_dist,BER] = bit_error(logic_type,flags,v1,v2,v3,bin)
+% Author: Giulio Basso, 2022
+% Function used for calculating the Hamming Distance and BIT ERROR RATIO
+% in the paper by G. Basso, M. T. Barros,
+% 'Biocomputing Model Using Tripartite Synapses Provides% Reliable Neuronal 
+% Logic Gating with Spike Pattern Diversity'
 
 %INPUT:
 %   logic_type: string with 'AND' or 'OR'
